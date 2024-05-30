@@ -6,6 +6,13 @@
 // OPERADOR DE DECREMENTO -- 
 // OPERADORES DE ATRIBUIÇÃO =
 // NaN - NOT A NUMBER parseInt (inteiro), parseFloat (decimais)
+// = se lê recebe 
+
+
+// let contador = 1;
+// contador ++;
+// console.log(contador);
+
 
 
 let contador = 1;
