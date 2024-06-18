@@ -3,4 +3,4 @@
 
 try {
     console.log(naoEx)
-}
+};
