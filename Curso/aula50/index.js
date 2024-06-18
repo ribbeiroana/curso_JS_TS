@@ -15,10 +15,30 @@
 // }
 // funcao ({ nome: 'Ana', sobrenome: 'Ribeiro', idade: 19});
 
-function funcao ( { nome, sobrenome, idade }) {
-    console.log(nome, sobrenome, idade);
+// function funcao ( { nome, sobrenome, idade }) {
+//     console.log(nome, sobrenome, idade);
+// }
+
+// let obj = ({ nome: 'Ana', sobrenome: 'Ribeiro', idade: 19});
+
+// funcao (obj);
+
+// function conta (operador, acumulador, numeros) {
+//     console.log(operador, acumulador, numeros);
+// }
+// conta('+', 0, 20, 30, 40, 50);
+
+// function conta (operador, acumulador, ...numeros) {
+//     for (let numero in numeros) {
+//         console.log(numero);
+//     }
+// }
+// conta('+', 0, 20, 30, 40, 50);
+
+function conta (operador, acumulador, ...numeros) {
+    for (let numero of numeros) {
+        acumulador += numero;
+    }
+    console.log(acumulador);
 }
-
-let obj = ({ nome: 'Ana', sobrenome: 'Ribeiro', idade: 19});
-
-funcao (obj);
+conta('+', 0, 20, 30, 40, 50);
