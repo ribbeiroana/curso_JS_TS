@@ -1,2 +1,0 @@
-// HERANÇA COM CLASSES
-
