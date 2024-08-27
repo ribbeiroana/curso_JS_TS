@@ -1,0 +1,6 @@
+quando o form não tem o method ele passa a ser get 
+
+npm i validator
+
+importar
+const validator = require('validator');
