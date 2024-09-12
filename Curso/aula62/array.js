@@ -1,10 +1,10 @@
 // valor por referencia 
 // é usado as duas formas
 
-//Convertendo um array em uma string 
-// const nomes = [ 'Ana', 'Paula' ];
-// const nome = nomes.join(' ');
-// console.log(nome);
+// Convertendo um array em uma string 
+    // const nomes = [ 'Ana', 'Paula' ];
+    // const nome = nomes.join(' ');
+    // console.log(nome);
 
 //Convertendo uma string em um array
 // Separa um indice do array - nesse ex ficara [ 'Ana', 'Paula' ]
